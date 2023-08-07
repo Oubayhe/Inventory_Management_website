@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-black9: #f2f2fc;
+    --bg-black1: #fdf9ff;
+    --bg-black5: #e8dfec;
+    --text-black9: #302e4d;
+    --text-black7: #504E70;
+}
+
+.big_container {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--bg-black9);
+    padding: 30px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.welcomeMessage {
+    font-size: 24px;
+    margin: 15px 0;
+}
+.welcomeMessage span {
+    font-family: 'Clicker Script', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+.titre-page {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #006fc4;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    border: 1px solid #D0C8D4;  }
+th {
+    background-color: #006fc477;
+}
+tbody tr:nth-child(even) {
+    background-color: #ebebf0;
+}
+table td:nth-child(3), table td:nth-child(4)  {
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.configurations {
+    gap: 45px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.configurations a {
+    gap: 28px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+}
+
+#demandeEnv {
+    border: 2px solid #006fc4;
+    color: #006fc4;
+    cursor: pointer;
+}
+#demandeEnv:hover {
+    transition: all ease 0.3s;
+    color: white;
+    background-color: #006fc4;
+}
+
+#logingOut {
+    border: 2px solid rgba(255, 0, 0, 0.699);
+    color: rgba(255, 0, 0, 0.699);
+    cursor: pointer;
+}
+#logingOut:hover {
+    transition: all ease 0.3s;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.699);
+}
+
+/*Here is for the button style*/
+table td:last-child{
+    padding: 0;
+    position: relative;
+}
+.icon-chart {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+.icon-chart i {
+    font-size: 24px;
+    cursor: pointer;
+}
+.icon-chart i:hover {
+    color: #006fc4;
+    transition: all ease 0.2s;
+}
+/*----------------------------*/
+
+/*Some things for the tables of requests sent by responsables to others*/
+.accepted-row {
+    background-color: green;
+}
+span.accepted i {
+    color: #54e360;
+    font-size: 16px;
+}
+
+.zero-quantity {
+    background-color: rgba(255, 0, 0, 0.788);
+}
+
+.number_request_respo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expired_value {
+    color: #ffd000;
+}
+/*-----------------------------------------------------------------------*/

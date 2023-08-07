@@ -1,0 +1,43 @@
+tbody tr:hover {
+    position: relative;
+}
+
+tbody tr:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.664);
+    z-index: 1;
+}
+
+tbody tr:hover .Unsent {
+    display: block;
+}
+
+tbody tr .Unsent {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    border: none;
+}
+.icon-trash-expired {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.Sent {
+    display: none;
+}
