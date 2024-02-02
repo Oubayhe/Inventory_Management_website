@@ -14,4 +14,5 @@ This repository was created for my internship project at ONSSA ("Office national
 The project was built in PHP, with the database managed using SQL. I utilized both PhpMyAdmin and MySQL to verify SQL queries and view the data.
 
 > [!IMPORTANT]
-> To view how the project works, you can check the demo video [here](https://www.linkedin.com/feed/update/urn:li:activity:7108476946711228416/).
+> To view how the project works, you can check the demo video [here](https://www.linkedin.com/feed/update/urn:li:activity:7108476946711228416/)
+> And to have a full understanding of the project from the database and the operation of each file, you can check [the intership repport](https://drive.google.com/file/d/1pajx2QoA2sNl12MyMMMM-LKH2LuGnxCq/view?usp=sharing).
